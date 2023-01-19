@@ -49,11 +49,4 @@ def perzeptronLearn(m_p, m_m):
 if __name__ == '__main__':
     main()
 
-# PerzeptronLernen(M+, M−)
-#   w = beliebiger Vektor reeller Zahlen
-#   Repeat
-#       For all x ∈ M+
-#           If w x ≤ 0 Then w = w + x
-#       For all x ∈ M−
-#           If w x > 0 Then w = w − x
-#   Until alle x M+ M werden korrekt klassifiziert
+
